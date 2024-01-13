@@ -1,0 +1,85 @@
+.App {
+  background-color: rgb(229, 247, 241);
+  min-height: 100vh;
+  width: 400px;
+  margin: 20px auto;
+}
+body {
+  background-color: #1c8584;
+}
+.Image {
+
+}
+ul,li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+.crossed {
+  text-decoration: line-through 2px #1c8584;;
+  background-color: rgb(211, 217, 221);
+  text-transform: uppercase;
+  font-family: 'Rubik Glitch', system-ui;
+  
+}
+h1 {
+  font-family: 'Rubik Scribble', system-ui;
+  text-shadow: 1px 1px 4px #1c8584;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+}
+.Image {
+  border-radius: 80%;
+  margin-top: 10px;
+  
+}
+.Add {
+  margin-top: 5px;
+  background-color: white;
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: #1c8584;
+  font-size: 16px;
+  font-family: 'Rubik Glitch', system-ui;
+  box-shadow: 1px 1px 5px 5px #1c8584;
+  transition-duration: 3s;
+  cursor: pointer;
+
+}
+.Add:hover {
+    border-radius: 10px;
+    background-color: #1c8584;
+    color: white;
+}
+.Delete {
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Rubik Glitch', system-ui;
+  background-color: #1c8584;
+  box-shadow: 1px 1px 5px 5px white;
+  transition-duration: 3s;
+
+}
+.Delete:hover {
+  border-radius: 10px;
+  background-color: white;
+  color: #1c8584;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Rubik Glitch', system-ui;
+
+}
+input:active {
+  background-color: rgb(248, 248, 245);
+}
